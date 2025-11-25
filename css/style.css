@@ -73,3 +73,21 @@ ul {
 .nav__search i {
     color: rgba(76, 83, 102, 1);
 }
+
+.nav__select {
+    border: none;
+}
+
+.nav__btns .nav__btn {
+    border: none;
+    background: none;
+    padding: 7px 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav__btns .nav__btn:last-of-type {
+    background: var(--primary);
+    color: white;
+    border-radius: 4px;
+}
